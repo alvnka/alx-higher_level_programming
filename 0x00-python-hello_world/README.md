@@ -10,3 +10,5 @@
 7-edges.py - copy, cut and paste
 8-concat_edges.py - concatenates cut words from a variable to make a sentence
 9-easter_egg.py - printing 'The Zen of Python'
+10-check_cycle.c - checks if a linked list has a cycle
+lists.h - contains all prototypes for 10
