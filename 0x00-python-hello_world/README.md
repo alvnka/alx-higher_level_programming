@@ -8,3 +8,4 @@
 5_print_string.py - print string stored in variable str as instructed 
 6-concat.py - concatenate two strings.
 7-edges.py - copy, cut and paste
+8-concat_edges.py - concatenates cut words from a variable to make a sentence
