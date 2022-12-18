@@ -12,3 +12,4 @@
 9-easter_egg.py - printing 'The Zen of Python'
 10-check_cycle.c - checks if a linked list has a cycle
 lists.h - contains all prototypes for 10
+100-write.py - prints exact words as required using the write function into stderr.
