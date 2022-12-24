@@ -10,4 +10,4 @@ def uppercase(str):
             result += chr(ord(i) - 32)
         else:
             result += i
-    print(f"{result}")
+    print(f"{result}".format())

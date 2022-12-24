@@ -5,3 +5,4 @@ for i in range(0, 9):
             if j > 1:
                 print(f", ".format(), end="")
             print(f"{i}{j}".format(), end="")
+print(f"\n".format())
