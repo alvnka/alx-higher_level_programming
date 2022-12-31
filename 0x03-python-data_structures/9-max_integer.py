@@ -2,8 +2,8 @@
 # max_integer - find the biggest integer of a list
 
 def max_integer(my_list=[]):
-    if len(my_list) <= 0:
-        return (None)
+    if len(my_list) == 0:
+        return "None"
     else:
         large_element = 0
         for element in my_list:
