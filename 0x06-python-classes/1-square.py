@@ -1,11 +1,15 @@
 #!/usr/bin/python3
+"""Defines a square class"""
+
 
 class Square:
-    """
-    initialize the square with a size
+    """We define modules for class Square"""
 
-    :param size: size of the square
-    :type size: int
-    """
     def __init__(self, size):
+        """
+        initialize the square with a size
+
+        :param size: size of the square
+        :type size: int
+        """
         self.__size = size
