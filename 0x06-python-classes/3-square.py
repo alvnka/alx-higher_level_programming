@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""Defines a square class"""
+
 
 class Square:
+    """We define modules for class Square"""
     def __init__(self, size=0):
         """
         initialize the square with an optimal size
