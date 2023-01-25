@@ -3,6 +3,7 @@
 
 
 class Square:
+    """We define modules for class Square"""
     def square(self):
         """represent the square"""
         pass
