@@ -2,10 +2,5 @@
 """Defines a square class"""
 class Square:
     def square(self):
-        """
-        Args:
-            calling itself
-        Returns:
-            nothing
-        """
+        """represent the square"""
         pass
