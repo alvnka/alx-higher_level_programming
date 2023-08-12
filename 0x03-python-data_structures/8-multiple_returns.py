@@ -5,4 +5,4 @@ def multiple_returns(sentence):
             continue
     else:
         return ((0, None))
-    return((count + 1, sentence[0]))
+    return ((count + 1, sentence[0]))
