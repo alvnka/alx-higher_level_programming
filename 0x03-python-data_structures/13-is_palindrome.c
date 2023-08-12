@@ -5,6 +5,7 @@
  * @head: beginning of the list
  * Return: 1 if palindrome 0 if not palindrome
  */
+
 int is_palindrome(listint_t **head)
 {
 	listint_t *current_node = *head;

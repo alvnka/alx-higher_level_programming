@@ -1,4 +1,4 @@
 # alx-higher_level_programming
 
-0x01. Python - if/else, loops, functions
+This is an array of ALX mini projects aimed at training me in high-level programming using python.
 
