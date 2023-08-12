@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * is_palindrome - checks if a list reads the same forward as backwards
@@ -34,7 +36,6 @@ int is_palindrome(listint_t **head)
 			current_node = current_node->next;
 		}
 
-		index--;
 
 		while (check < count / 2)
 		{
