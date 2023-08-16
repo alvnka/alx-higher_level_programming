@@ -6,7 +6,7 @@ def best_score(a_dictionary):
         max_score_candidate = ''
         max_score = 0
         for key, value in a_dictionary.items():
-            (max_score_candidate, max_score) = (
-                key, value) if value > max_score \
-					else (max_score_candidate, value)
+            if value > max_score:
+                max_score_candidate = key
+                max_score = value
         return max_score_candidate
