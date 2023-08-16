@@ -7,11 +7,13 @@ def roman_to_int(roman_string):
     }
     result = 0
     while roman_string:
-        if roman_string[:2] in roman_numbers:
-            result += roman_numbers[roman_string[:2]]
-            roman_string = roman_string[2:]
+        if isinstance(roman_string, str):
+            if roman_string[:2] in roman_numbers:
+                result += roman_numbers[roman_string[:2]]
+                roman_string = roman_string[2:]
+            else:
+                result += roman_numbers[roman_string[0]]
+                roman_string = roman_string[1:]
         else:
-            result += roman_numbers[roman_string[0]]
-            roman_string = roman_string[1:]
-
+            return 0
     return result
